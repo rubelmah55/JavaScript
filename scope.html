@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JavaScript Test</title>
+  </head>
+  <body>
+	
+
+	<script>
+
+	/*refarence link 
+
+	https://www.w3schools.com/js/js_scope.asp
+	https://scotch.io/tutorials/understanding-scope-in-javascript
+
+	*/
+
+	var a = 500; //global
+	var b = 400;
+
+	function myF(){
+		var a = 200; //local
+		var b = 100;
+		console.log(a); 
+	}
+	myF();
+	console.log(a);
+
+	</script>
+  </body>
+</html>
